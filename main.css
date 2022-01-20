@@ -15,10 +15,10 @@ button {
   font-family: "Lexend Deca", sans-serif;
 }
 
-h3 {
+h2 {
   font-family: "Big Shoulders Display", sans-serif;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 45px;
 }
 
 p {
@@ -30,7 +30,7 @@ p {
   background-color: #fff;
   border: 2px solid #fff;
   border-radius: 30px;
-  padding: 10px 20px;
+  padding: 15px 25px;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
 }
@@ -71,6 +71,7 @@ p {
 
 .container {
   padding: 20px;
+
 }
 
 .card {
@@ -79,14 +80,19 @@ p {
 
 .card img {
   margin-bottom: 25px;
+  margin-left: 10px;
 }
 
-.card h3 {
-  margin-bottom: 20px;
+.card h2 {
+  margin-bottom: 30px;
+  position: relative;
+  top: 5px;
+  left: 16px;
 }
 
 .card p {
   margin-bottom: 30px;
+  padding-bottom: 22px;
 }
 
 .attribution {
@@ -103,6 +109,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    left: 25px;
     min-height: 100vh;
     max-width: 900px;
     margin: auto;
